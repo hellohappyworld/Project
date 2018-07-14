@@ -1,0 +1,2 @@
+ParseLogMapper：清洗数据存储到hbase中
+ParseLogRunner：解析数据到hbase的runner类
