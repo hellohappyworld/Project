@@ -5,7 +5,7 @@
 	接口：http://ip.taobao.com/service/getIpInfo.php?ip=[ip地址字串]
 	      例如：http://ip.taobao.com/service/getIpInfo.php?ip=1.60.42.255
 
-包括ip地址解析:
+包括ip地址解析: 根据ip地址解析出所在国家、省、市
 http://ip.taobao.com/service/getIpInfo.php?ip=219.148.177.187
 
 userAgent解析:
