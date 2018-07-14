@@ -8,7 +8,7 @@
 包括ip地址解析: 根据ip地址解析出所在国家、省、市
 http://ip.taobao.com/service/getIpInfo.php?ip=219.148.177.187
 
-userAgent解析:
+userAgent解析:浏览器名字，浏览器版本，操作系统名字，操作系统版本
 
 
 服务器时间解析
