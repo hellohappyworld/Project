@@ -1,4 +1,4 @@
-##### 对IP进行解析，解析出ip所在国家、省、市
+##### 1、对IP进行解析，解析出ip所在国家、省、市
 
 ```
 package com.congcong.etl.util;
@@ -215,5 +215,22 @@ public class IpParserUtil extends IPSeeker {
 
 }
 
+```
+
+##### 2、测试类
+
+```
+import com.congcong.etl.util.ip.IPSeeker;
+
+public class IpUtilTest {
+    public static void main(String[] args) {
+        System.out.println(IPSeeker.getInstance().getCountry("140.250.129.253"));
+    }
+}
+
+
+
+控制台打印结果：
+山东省莱芜市
 ```
 
