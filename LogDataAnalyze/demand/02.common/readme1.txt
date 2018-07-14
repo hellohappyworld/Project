@@ -1,1 +1,1 @@
-这是一个常量类的包
+This is a constant class
