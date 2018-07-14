@@ -90,6 +90,7 @@ public class EventLogConstants {
     /**
      * 事件相关
      */
+    public static final String LOG_COLUMN_NAME_EVENT_NAME = "en";//事件名称
     public static final String LOG_COLUMN_NAME_EVENT_CATEGORY = "ca";//事件类别
     public static final String LOG_COLUMN_NAME_EVENT_ACTION = "ac";//事件动作
     public static final String LOG_COLUMN_NAME_EVENT_START = "kv_";//事件的自定义属性
