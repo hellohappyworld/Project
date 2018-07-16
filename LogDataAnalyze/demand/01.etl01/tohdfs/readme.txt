@@ -1,0 +1,3 @@
+ParserLogDataMapperToHdfs：将hdfs中的数据清洗之后存储到hdfs，以便后续hive映射做数据仓库分析
+ParserLogDataToHdfsRunner：清洗日志数据存储hdfs的驱动类
+LogDataWritable：保存日志数据内容的对象
