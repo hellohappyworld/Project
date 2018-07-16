@@ -1,1 +1,6 @@
-维度类
+BaseDimension：维度的顶级父类
+BrowserDimension：浏览器维度
+DateDimension：时间维度
+KpiDimension：kpi的维度类
+LocationDimension：地域维度
+PlatformDimension：平台维度
