@@ -1,1 +1,6 @@
-PageOneStepConvertRateSpark：页面切片转化率
+PageOneStepConvertRateSpark：
+页面单跳转化率
+1.	接收J2EE系统传进来的taskId，根据taskId去MySQL查询任务的参数，日期范围、页面流id
+2.	针对指定范围日期内的用户访问行为数据，去判断计算页面流id中每两个页面组成的页面切片，它的访问量是多少
+3.	根据指定页面流中各个页面切片的访问量，计算出各个页面切片的转化率
+4.	把计算出来的转化率，写入MySQL
