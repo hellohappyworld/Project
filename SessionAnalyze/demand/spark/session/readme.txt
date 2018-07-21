@@ -1,5 +1,12 @@
+UserVisitSessionAnalyzeSpark：
 1、通过筛选得到session的明细数据
 2、计算出各个范围的session占比，并存入数据库
 3、按时间比例随机抽取session
 4、top10热门品类
 5、获取top10热门品类中的每个品类取top10活跃的session
+
+CategorySortKey：
+通过点击次数，下单次数，支付次数进行自定义排序
+
+SessionAggrStatAccumulator:
+实现自定义AccumulatorParam
